@@ -1,0 +1,58 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .error-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    border-top: 4px solid #ef4444;
+  }
+  
+  .error-icon {
+    color: #ef4444;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error-card h3 {
+    margin-bottom: 1rem;
+    color: #1f2937;
+    font-weight: 600;
+  }
+  
+  .error-card p {
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+  
+  .retry-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .retry-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .retry-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  }
